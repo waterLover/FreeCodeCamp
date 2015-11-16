@@ -1,4 +1,4 @@
-var common = (function() {
+var common =(function() {
   // common namespace
   // all classes should be stored here
   var common = window.common || {
@@ -6,6 +6,7 @@ var common = (function() {
     // called at the beginning of dom ready
     init: []
   };
+  
 
   common.challengeName = common.challengeName || window.challenge_Name || '';
 
